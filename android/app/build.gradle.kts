@@ -15,16 +15,15 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.example.app"
-    compileSdk = 36
+    compileSdk 36
 
     defaultConfig {
-        applicationId = "com.example.app"
-        minSdk = 23
-        targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        minSdk 23
+        targetSdk 36
+        ...
     }
+}
+
 }
 
 

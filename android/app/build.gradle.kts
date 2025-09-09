@@ -15,10 +15,18 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.radyhaggag.livescore"
-    compileSdk = 35
-    ndkVersion = flutter.ndkVersion
-    ndkVersion = "27.0.12077973"
+    namespace = "com.example.app"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.app"
+        minSdk = 23
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+    }
+}
+
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
